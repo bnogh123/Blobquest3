@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/SuperTiled2Unity/Examples/Overhead/overhead.unity
+  isLoaded: 1
+  isActive: 1
