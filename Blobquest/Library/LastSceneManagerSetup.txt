@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SuperTiled2Unity/Examples/Overhead/overhead.unity
+- path: Assets/Blobquest.unity
   isLoaded: 1
   isActive: 1

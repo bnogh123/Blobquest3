@@ -61,259 +61,87 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\2DGamekit\Scripts\AI\BT.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\AI\GunnerBeam.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\AI\GunnerBeamController.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\AI\GunnerProjectile.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\AI\InstantiateObject.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\AI\MissileGolem.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\AI\SendSignal.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Audio\AudioSurface.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Audio\BackgroundMusicPlayer.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Audio\MixerSliderLink.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Audio\RandomAudioPlayer.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\Bullet.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\BulletPool.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\CharacterController2D.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\Damageable.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\Damager.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\EnemyBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\InputComponent.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\PlayerCharacter.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\PlayerInput.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\SpitterBT.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\VFXController.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Enemies\ChomperAttackSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Enemies\ChomperDeathSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Enemies\ChomperPatrolSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Enemies\ChomperRunToTargetSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\AirborneMeleeAttackSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\AirborneSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\AirborneWithGunSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\CrouchSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\CrouchWithGunSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\DeadLandingSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\DeadSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\HurtSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\LocomotionSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\LocomotionWithGunSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\MeleeAttackSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\PushingSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\RespawnSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\SceneLinkedSMB.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\TriggerVFX.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\CameraShaker.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\Checkpoint.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnButton.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnButton2D.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnCollision.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnCollision2D.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnTrigger.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnTrigger2D.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\InventoryController.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\InventoryItem.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\LayerMaskExtensions.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\ObjectPool.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Core\TimedDisabling.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Effect\BossDoorStateManager.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Effect\DropShadow.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Effect\Grenade.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Effect\GunnerLightning.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Effect\GunnerShieldEffect.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Effect\SpriteColorChange.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Effect\WaterArea.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Localization\OriginalPhrases.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Localization\TranslatedPhrases.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Localization\TranslatedText.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Localization\Translator.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\EnemySpawner.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\HealthPickup.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\HubDoor.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\ObjectPositionResetter.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\Platforms\FallthroughReseter.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\Platforms\MovingPlatform.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\Platforms\PlatformCatcher.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\Pushables\PressurePad.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\Pushables\Pushable.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Objects\WeaponPickup.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\CharacterStateSetter.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\GameObjectTeleporter.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\IDataPersister.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\PersistentDataManager.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\SavedData.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\SceneController.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\SceneControllerWrapper.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\SceneNameAttribute.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\SceneTransitionDestination.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\ScreenFader.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\TransitionPoint.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Timeline\DirectorTrigger.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Timeline\ScrollingText\ScrollingTextBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Timeline\ScrollingText\ScrollingTextClip.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Timeline\ScrollingText\ScrollingTextMixerBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Timeline\ScrollingText\ScrollingTextTrack.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\UI\HealthUI.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\UI\InputDisplayUI.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\UI\KeyUI.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\UI\MenuActivityController.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\UI\OptionUI.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\UI\StartUI.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\AutoCameraSetup.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\DialogueCanvasController.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\Helpers.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\LocalTransformDuplicator.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\OpenURL.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\PhysicsHelper.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\PrewarmDirector.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\PriorityQueue.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\RuleTile.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\SetMaterialRenderQueue.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\StartScreenSpriteOffsetter.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\UIAutoscroll.cs" />
-    <Compile Include="Assets\2DGamekit\Scripts\Utility\VisibleBubbleUp.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\CinemachinePostProcessingV2\CinemachinePostProcessing.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\LightControl\LightControlBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\LightControl\LightControlClip.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\LightControl\LightControlMixerBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\LightControl\LightControlTrack.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlClip.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlMixerBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlTrack.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderClip.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderMixerBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderTrack.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TextSwitcher\TextSwitcherBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TextSwitcher\TextSwitcherClip.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TextSwitcher\TextSwitcherMixerBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TextSwitcher\TextSwitcherTrack.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationClip.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationMixerBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationTrack.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TransformTween\TransformTweenBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TransformTween\TransformTweenClip.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TransformTween\TransformTweenMixerBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TransformTween\TransformTweenTrack.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\Video\VideoPlayableBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\Video\VideoSchedulerPlayableBehaviour.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\Video\VideoScriptPlayableAsset.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\Video\VideoScriptPlayableTrack.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
-    <Compile Include="Assets\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
-    <Compile Include="Assets\Aseprite2Unity\Examples\MegaDad\MegaDadScript.cs" />
-    <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\Ocias\PixelArtCamera\Example\CameraPan.cs" />
-    <Compile Include="Assets\Ocias\PixelArtCamera\Example\RandomRotate.cs" />
-    <Compile Include="Assets\Ocias\PixelArtCamera\Example\SixtyFPS.cs" />
-    <Compile Include="Assets\Ocias\PixelArtCamera\Example\TileSpin.cs" />
-    <Compile Include="Assets\Ocias\PixelArtCamera\PixelArtCamera.cs" />
-    <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
-    <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
-    <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
-    <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Examples\Overhead\Sprites\MegaDad\OverheadMegaDadController.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\CollisionObject.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\CollisionShapeType.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\CustomProperty.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\Extensions\EnumerableExtensions.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\Extensions\GameObjectExtensions.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\FlipFlags.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\MapOrientation.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\MapRenderOrder.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\Math\MatrixUtils.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\ReadOnlyAttribute.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\Sorters\OverheadSorter.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\Sorters\OverheadSorterDynamic.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\Sorters\OverheadSorterStatic.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SpriteScripts\OverheadSpriteSorter.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\StaggerAxis.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\StaggerIndex.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperColliderComponent.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperCustomProperties.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperGroupLayer.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperImageLayer.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperLayer.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperMap.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperObject.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperObjectLayer.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperTile.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperTileLayer.cs" />
-    <Compile Include="Assets\SuperTiled2Unity\Scripts\TileObjectAnimator.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <None Include="Assets\Ocias\PixelArtCamera\PixelArtSpriteDiffuse.shader" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedSprite-Animated.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\Ocias\PixelArtCamera\PixelArtDiffuse.shader" />
-    <None Include="Assets\Ocias\PixelArtCamera\PixelArtParticle.shader" />
-    <None Include="Assets\Ocias\PixelArtCamera\README.txt" />
-    <None Include="Assets\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
-    <None Include="Assets\2DGamekit\2DGameKit_Third-PartyNotice.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
-    <None Include="Assets\Ocias\PixelArtCamera\PixelArtUI.shader" />
-    <None Include="Assets\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedSprite.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne_License.txt" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\Particle Standard Unlit.shader" />
-    <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
-    <None Include="Assets\SuperTiled2Unity\Examples\Overhead\Maps\Zoria Tileset\readme.txt" />
-    <None Include="Assets\Ocias\PixelArtCamera\PixelArtFont.shader" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\Shield.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\Water.shader" />
-    <None Include="Assets\Ocias\PixelArtCamera\BilinearSharp.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\UnityStandardParticleShadow.cginc" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\UnityStandardParticles.cginc" />
-    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Aseprite2Unity\Examples\MegaDad\readme.txt" />
-    <None Include="Assets\2DGamekit\Utilities\Fonts\Rajdhani\RajdhaniFontLicense.txt" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedTile.shader" />
-    <None Include="Assets\EffectExamples\Magic Effects\Shaders\Ice.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\FrostedGlass.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedTileAnimated.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\Ocias\PixelArtCamera\PixelArtSprite.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <Compile Include="Assets\Clutter\Ocias\PixelArtCamera\PixelArtCamera.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\CollisionObject.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\CollisionShapeType.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\CustomProperty.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\FlipFlags.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\MapOrientation.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\MapRenderOrder.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Math\MatrixUtils.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Sorters\OverheadSorter.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Sorters\OverheadSorterDynamic.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Sorters\OverheadSorterStatic.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SpriteScripts\OverheadSpriteSorter.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\StaggerAxis.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\StaggerIndex.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperColliderComponent.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperCustomProperties.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperGroupLayer.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperImageLayer.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperLayer.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperMap.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperObject.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperObjectLayer.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperTile.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperTileLayer.cs" />
+    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\TileObjectAnimator.cs" />
+    <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <None Include="Assets\Clutter\Ocias\PixelArtCamera\PixelArtSpriteDiffuse.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Clutter\Ocias\PixelArtCamera\PixelArtDiffuse.shader" />
+    <None Include="Assets\Clutter\Ocias\PixelArtCamera\PixelArtParticle.shader" />
+    <None Include="Assets\Clutter\Ocias\PixelArtCamera\README.txt" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Clutter\Ocias\PixelArtCamera\PixelArtUI.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Sprites\EmojiOne_License.txt" />
+    <None Include="Assets\Clutter\Ocias\PixelArtCamera\PixelArtFont.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Clutter\Ocias\PixelArtCamera\BilinearSharp.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Clutter\Ocias\PixelArtCamera\PixelArtSprite.shader" />
+    <None Include="Assets\Clutter\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -517,19 +345,19 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
@@ -558,16 +386,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="ExternalCheck.csproj">
-      <Project>{B93FD08F-A3C5-AD54-F066-B1B8FCFDF5F2}</Project>
-      <Name>ExternalCheck</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageManagerAssembly.csproj">
-      <Project>{0FBF2243-33CB-31C2-B335-4FA7D84056C9}</Project>
-      <Name>PackageManagerAssembly</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
