@@ -61,194 +61,264 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Clutter\Ocias\PixelArtCamera\Editor\PixelArtCameraEditor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AnimationBuilder.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AssetDatabaseEx.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AssetPath.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAsset.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAssetMap.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAssetSettings.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAssetTemplate.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAssetTileset.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AtlasBuilder.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\AtlasSize.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Attributes\AutoCustomTmxImporterAttribute.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\CollisionBuilder.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\CollisionClipper.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\CollisionClipperKey.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\ComposeConvexPolygons.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\CompositionPolygon.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\Math.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\PolygonEdge.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\PolygonEdgeGroup.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\PolylineReduction.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\Triangulator.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\TilePolygon.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Collision\TilePolygonCollection.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\CustomEditors\ColliderGizmos.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\CustomEditors\SuperColliderComponentEditor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\CustomImporters\CustomTmxImporter.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\DataCompression.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\DataEncoding.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Exceptions\TiledException.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\ByteExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\CollisionObjectExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\CustomPropertyExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\GameObjectExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\RectUtil.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\StreamExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\StringExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\SuperMapExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\SuperTileExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\Texture2DExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\TypeExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Extensions\XmlExtensions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\GlobalTileDatabase.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\GUI\GuiScopedBackgroundColor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\GUI\GuiScopedHorizontal.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\GUI\GuiScopedIndent.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\GUI\GuiScopedVertical.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Helpers\ChDir.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Helpers\NamedColors.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Helpers\ReadOnlyPropertyDrawer.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Helpers\UniqueNameifier.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\ImporterConstants.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\LayerSorterHelper.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\SuperImportContext.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\SuperImporter.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\SuperImporterEditor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TiledAssetImporter.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TiledAssetImporterEditor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.GroupLayer.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.ImageLayer.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.ObjectLayer.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.TileLayer.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporterEditor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TsxAssetImporter.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TsxAssetImporterEditor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TxAssetImporter.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Importers\TxAssetImporterEditor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ImportSorting.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Loaders\CustomPropertyLoader.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Loaders\SuperGroupLayerLoader.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Loaders\SuperImageLayerLoader.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Loaders\SuperLayerLoader.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Loaders\SuperObjectLayerLoader.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Loaders\SuperTileLayerLoader.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Loaders\TilesetLoader.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Math\ColliderFactory.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Math\ColliderFactoryIsometric.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Math\ColliderFactoryOrthogonal.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Math\PolygonUtils.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ObjectTemplate.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Postprocessors\AssetDependencies.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Postprocessors\SuperAssetDependencyPostprocessor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Postprocessors\SuperTexturePostprocessor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Postprocessors\TiledAssetDependencies.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Properties\CustomObjectType.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Settings\Clamper.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Settings\ST2USettings.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Settings\SuperIcons.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Settings\SuperSettingsImporter.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\Settings\SuperSettingsImporterEditor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\SuperTileset.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\clipper.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\BitWriter.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\BZip2Compressor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\BZip2InputStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\BZip2OutputStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\ParallelBZip2OutputStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\Rand.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\CommonSrc\CRC32.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\CommonSrc\Iso8859Dash1Encoding.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ComHelper.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\EncryptionAlgorithm.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\Events.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\Exceptions.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ExtractExistingFileAction.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\FileSelector.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\OffsetStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\Shared.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\WinZipAes.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipConstants.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipCrypto.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipDirEntry.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntry.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntry.Extract.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntry.Read.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntry.Write.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntrySource.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipErrorAction.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.AddUpdate.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Check.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Events.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Extract.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Read.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Save.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.SaveSelfExtractor.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Selector.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.x-IEnumerable.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipInputStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipOutputStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipSegmentedStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\Deflate.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\DeflateStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\GZipStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\Inflate.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\InfTree.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ParallelDeflateOutputStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\Zlib.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibBaseStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibCodec.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibConstants.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibStream.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibTree.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Dict.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Geom.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Mesh.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\MeshUtils.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\PriorityHeap.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\PriorityQueue.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Sweep.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Tess.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\MaxRectsBinPack.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\MultiValueDictionary.cs" />
-    <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\TileIdMath.cs" />
-    <None Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Readme.txt" />
-    <None Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\NOTICE.txt" />
-    <None Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\License.zlib.txt" />
-    <None Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\License.zlib.txt" />
-    <None Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\License.BZip2.txt" />
-    <None Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\License.txt" />
-    <None Include="Assets\Clutter\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\LICENSE.jzlib.txt" />
+    <Compile Include="Assets\2DGamekit\Scripts\Character\Editor\CharacterStateSetterEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Character\Editor\DamageableEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Character\Editor\DamagerEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Character\Editor\PlayerCharacterEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Character\Editor\PlayerInputEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Localization\Editor\PhraseDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Localization\Editor\TranslatedPhrasesEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Localization\Editor\TranslatorEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Objects\Editor\MovingPlatformEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Objects\Editor\MovingPlatformPreview.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Objects\Editor\PressurePadEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\Editor\DataPersisterEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\Editor\ParameterSetterDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\Editor\SceneNameDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\Editor\TransitionStartEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Timeline\Editor\DirectorTriggerEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Scripts\Timeline\ScrollingText\Editor\ScrollingTextDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\CinemachinePostProcessingV2\Editor\CinemachinePostProcessingEditor.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\Editor\TimelinePlayableWizard.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\LightControl\Editor\LightControlDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\ScreenFader\Editor\ScreenFaderDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TimeDilation\Editor\TimeDilationDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TransformTween\Editor\TransformTweenDrawer.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\Editor\BTDebug.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\Editor\NewSceneCreator.cs" />
+    <Compile Include="Assets\2DGamekit\Utilities\Editor\RuleTileEditor.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseAssetPostprocessor.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AsepriteImporter.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AsepriteImporterEditor.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseCelChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseColorProfileChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseDummyChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseFile.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseFrame.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseFrameTagEntry.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseFrameTagsChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseHeader.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseLayerChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AsePaletteChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AsePaletteEntry.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseReader.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseSliceChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseSliceEntry.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\AseUserDataChunk.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\BlendMode.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\CelType.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\ChunkFactory.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\ChunkType.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\ColorDepth.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\ColorProfileFlags.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\ColorProfileType.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\HeaderFlags.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\IAseVisitor.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\LayerChunkFlags.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\LayerType.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\LoopAnimationDirection.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\SliceFlags.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AseReader\UserDataFlags.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\AssetDatabaseEx.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\Blender.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\Deploy.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\DocColor.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\EnumExtensions.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\PixmanCombine.cs" />
+    <Compile Include="Assets\Aseprite2Unity\Editor\UniqueNameifier.cs" />
+    <Compile Include="Assets\Ocias\PixelArtCamera\Editor\PixelArtCameraEditor.cs" />
+    <Compile Include="Assets\Shared\Ramps\Editor\RampAssetEditor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AnimationBuilder.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AssetDatabaseEx.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AssetPath.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAsset.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAssetMap.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAssetSettings.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAssetTemplate.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AssetTypes\SuperAssetTileset.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AtlasBuilder.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\AtlasSize.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Attributes\AutoCustomTmxImporterAttribute.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\CollisionBuilder.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\CollisionClipper.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\CollisionClipperKey.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\ComposeConvexPolygons.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\CompositionPolygon.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\Math.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\PolygonEdge.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\PolygonEdgeGroup.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\PolylineReduction.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\Geometry\Triangulator.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\TilePolygon.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Collision\TilePolygonCollection.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\CustomEditors\ColliderGizmos.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\CustomEditors\SuperColliderComponentEditor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\CustomImporters\CustomTmxImporter.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\DataCompression.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\DataEncoding.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Exceptions\TiledException.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\ByteExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\CollisionObjectExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\CustomPropertyExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\RectUtil.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\StreamExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\SuperMapExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\SuperTileExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\Texture2DExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\TypeExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Extensions\XmlExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\GlobalTileDatabase.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\GUI\GuiScopedBackgroundColor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\GUI\GuiScopedHorizontal.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\GUI\GuiScopedIndent.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\GUI\GuiScopedVertical.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Helpers\ChDir.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Helpers\NamedColors.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Helpers\ReadOnlyPropertyDrawer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Helpers\UniqueNameifier.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\ImporterConstants.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\LayerSorterHelper.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\SuperImportContext.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\SuperImporter.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\SuperImporterEditor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TiledAssetImporter.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TiledAssetImporterEditor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.GroupLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.ImageLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.ObjectLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporter.TileLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TmxAssetImporterEditor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TsxAssetImporter.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TsxAssetImporterEditor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TxAssetImporter.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Importers\TxAssetImporterEditor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ImportSorting.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Loaders\CustomPropertyLoader.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Loaders\SuperGroupLayerLoader.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Loaders\SuperImageLayerLoader.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Loaders\SuperLayerLoader.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Loaders\SuperObjectLayerLoader.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Loaders\SuperTileLayerLoader.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Loaders\TilesetLoader.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Math\ColliderFactory.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Math\ColliderFactoryIsometric.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Math\ColliderFactoryOrthogonal.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Math\PolygonUtils.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ObjectTemplate.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Postprocessors\AssetDependencies.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Postprocessors\SuperAssetDependencyPostprocessor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Postprocessors\SuperTexturePostprocessor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Postprocessors\TiledAssetDependencies.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Properties\CustomObjectType.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Settings\Clamper.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Settings\ST2USettings.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Settings\SuperIcons.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Settings\SuperSettingsImporter.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\Settings\SuperSettingsImporterEditor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\SuperTileset.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\clipper.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\BitWriter.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\BZip2Compressor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\BZip2InputStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\BZip2OutputStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\ParallelBZip2OutputStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\Rand.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\CommonSrc\CRC32.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\CommonSrc\Iso8859Dash1Encoding.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ComHelper.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\EncryptionAlgorithm.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\Events.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\Exceptions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ExtractExistingFileAction.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\FileSelector.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\OffsetStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\Shared.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\WinZipAes.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipConstants.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipCrypto.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipDirEntry.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntry.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntry.Extract.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntry.Read.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntry.Write.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipEntrySource.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipErrorAction.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.AddUpdate.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Check.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Events.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Extract.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Read.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Save.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.SaveSelfExtractor.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.Selector.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipFile.x-IEnumerable.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipInputStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipOutputStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zip\ZipSegmentedStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\Deflate.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\DeflateStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\GZipStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\Inflate.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\InfTree.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ParallelDeflateOutputStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\Zlib.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibBaseStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibCodec.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibConstants.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibStream.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\ZlibTree.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Dict.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Geom.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Mesh.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\MeshUtils.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\PriorityHeap.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\PriorityQueue.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Sweep.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\LibTessDotNet\Tess.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\MaxRectsBinPack.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\MultiValueDictionary.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Editor\TileIdMath.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <None Include="Assets\Editor\PackageManagerAssembly\PackageImportList.txt" />
+    <None Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Readme.txt" />
+    <None Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\BZip2\NOTICE.txt" />
+    <None Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\License.zlib.txt" />
+    <None Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\License.zlib.txt" />
+    <None Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\License.BZip2.txt" />
+    <None Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\License.txt" />
+    <None Include="Assets\SuperTiled2Unity\Scripts\Editor\ThirdParty\dotnetzip-for-unity\Zlib\LICENSE.jzlib.txt" />
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -496,26 +566,29 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Assets/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest3/Blobquest/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Bassem Noghnogh/Documents/Blobquest/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -555,6 +628,14 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{35BA641A-9826-FD48-8595-89B36911DD38}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="ExternalCheck.csproj">
+      <Project>{B93FD08F-A3C5-AD54-F066-B1B8FCFDF5F2}</Project>
+      <Name>ExternalCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageManagerAssembly.csproj">
+      <Project>{0FBF2243-33CB-31C2-B335-4FA7D84056C9}</Project>
+      <Name>PackageManagerAssembly</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
