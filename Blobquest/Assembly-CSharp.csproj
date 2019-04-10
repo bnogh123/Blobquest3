@@ -89,6 +89,7 @@
     <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperTile.cs" />
     <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\SuperTileLayer.cs" />
     <Compile Include="Assets\Clutter\SuperTiled2Unity\Scripts\TileObjectAnimator.cs" />
+    <Compile Include="Assets\ObstacleScript.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <None Include="Assets\Clutter\Ocias\PixelArtCamera\PixelArtSpriteDiffuse.shader" />
